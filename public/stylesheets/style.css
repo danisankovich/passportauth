@@ -1,0 +1,14 @@
+body { margin-top: 1em; }
+
+div#count {
+  border: 1px solid #148111;
+  background-color: #90BE97;
+  float: right;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
