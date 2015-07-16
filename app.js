@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 var passport = require('passport');
 var session = require("express-session");
 
-mongoose.connect(process.env.MONGOLAB_URI || 'http://localhost:8080');
+mongoose.connect(process.env.MONGOLAB_URI || 'http://localhost:5001');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
